@@ -4,6 +4,7 @@ import Form from "./Form";
 import Temperature from "./Temperature";
 import CityInfo from "./CityInfo";
 import Footer from "./Footer";
+import Forecast from "./Forecast";
 
 import "./App.css";
 
@@ -19,6 +20,7 @@ export default function App() {
         </div>
         <br />
         <div className="weather-forecast"></div>
+        <Forecast />
       </div>
       <Footer />
     </div>
