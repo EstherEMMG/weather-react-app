@@ -11,18 +11,20 @@ import "./App.css";
 export default function App() {
   return (
     <div className="card main-card">
-      <div className="card-body">
-        <Form />
-        <br />
-        <div className="container-md">
-          <Temperature />
-          <CityInfo />
+      <div className="container">
+        <div className="card-body">
+          <Form />
+          <br />
+          <div className="container-md">
+            <Temperature />
+            <CityInfo />
+          </div>
+          <br />
+          <div className="weather-forecast"></div>
+          <Forecast />
         </div>
-        <br />
-        <div className="weather-forecast"></div>
-        <Forecast />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }
