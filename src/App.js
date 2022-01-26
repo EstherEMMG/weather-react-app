@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Form from "./Form";
-import Temperature from "./Temperature";
 import CityInfo from "./CityInfo";
 import Footer from "./Footer";
 import Forecast from "./Forecast";
@@ -13,10 +11,7 @@ export default function App() {
     <div className="card main-card">
       <div className="container">
         <div className="card-body">
-          <Form />
-          <br />
           <div className="container-md">
-            <Temperature />
             <CityInfo />
           </div>
           <br />
