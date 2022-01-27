@@ -7,19 +7,31 @@ footer {
   font-size: 12px;
   text-align: right;
 }
-form {
+.CityInfo form {
   text-align: center;
   margin-bottom: 2px;
 }
-h1 {
+.CityInfo h1 {
   font-size: 30px;
 }
-h4 {
+.CityInfo h4 {
   font-size: 20px;
 }
-h6 {
+.temperature {
+  font-size: 40px;
+}
+.unit {
+  font-size: 18px;
+  position: relative;
+  line-height: 1;
+  top: -15px;
+  margin-left: 5px;
+}
+
+li {
   text-align: left;
-  margin-top: 10px;
+  margin-top: 15px;
+  list-style: none;
 }
 .main-card {
   background: linear-gradient(
@@ -31,28 +43,24 @@ h6 {
   margin: 30px auto;
   max-width: 600px;
 }
-.maintemp {
-  font-size: 40px;
-}
-.weather-forecast-day {
+
+.Forecast .weather-forecast-day {
   font-size: 13px;
   font-weight: bold;
 }
-.weather-forecast-temp {
+.Forecast .weather-forecast-temp {
   font-size: 14px;
 }
 .min-temp {
   opacity: 0.8;
 }
-.container-md {
-  display: flex;
-}
-.col-5 {
+
+.col-7 {
   display: block;
   text-align: center;
 }
-.col-4 {
-  margin: auto;
+.col-5 {
+  margin: 10px auto;
   text-align: left;
 }
 .degrees {
@@ -60,10 +68,6 @@ h6 {
   margin-left: 3px;
 }
 
-#celsius,
-#fahren {
-  text-decoration: none;
-}
 .maintemp .active {
   color: black;
   cursor: default;
