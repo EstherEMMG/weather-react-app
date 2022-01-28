@@ -12,7 +12,7 @@ export default function App() {
       <div className="container">
         <div className="card-body">
           <div className="container-md">
-            <CityInfo />
+            <CityInfo defaultCity="Madrid" />
           </div>
           <br />
           <div className="weather-forecast"></div>
