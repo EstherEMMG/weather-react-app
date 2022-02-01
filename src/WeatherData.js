@@ -6,7 +6,7 @@ import WeatherIcon from "./WeatherIcon";
 export default function WeatherData(props) {
   return (
     <div className="container row">
-      <div className="card col-7">
+      <div className="card col-6">
         <div className="card-body">
           <h2>
             <WeatherUnits celsius={props.data.temperature} />
@@ -18,7 +18,7 @@ export default function WeatherData(props) {
           </ul>
         </div>
       </div>
-      <div className="col-5">
+      <div className="col-6 cityDesign">
         <h1>{props.data.city}</h1>
         <h4>
           <span>

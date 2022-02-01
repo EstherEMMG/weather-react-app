@@ -11,11 +11,12 @@ footer {
   text-align: center;
   margin-bottom: 2px;
 }
-.CityInfo h1 {
-  font-size: 20px;
-}
+
 .CityInfo h4 {
   font-size: 20px;
+}
+.cityDesign {
+  margin-top: 40px;
 }
 .temperature {
   font-size: 40px;
@@ -42,14 +43,7 @@ li {
   margin: 30px auto;
   max-width: 600px;
 }
-.col-7 {
-  display: block;
-  text-align: center;
-}
-.col-5 {
-  margin: 50px auto;
-  text-align: left;
-}
+
 .maintemp .active {
   color: black;
   cursor: default;
