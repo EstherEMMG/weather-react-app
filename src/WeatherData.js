@@ -10,7 +10,7 @@ export default function WeatherData(props) {
         <div className="card-body">
           <h2>
             <WeatherUnits celsius={props.data.temperature} />
-            <WeatherIcon code={props.data.icon} />
+            <WeatherIcon code={props.data.icon} size={52} />
           </h2>
           <ul>
             <li>Humidity: {props.data.humidity}%</li>

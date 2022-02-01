@@ -12,7 +12,7 @@ footer {
   margin-bottom: 2px;
 }
 .CityInfo h1 {
-  font-size: 30px;
+  font-size: 20px;
 }
 .CityInfo h4 {
   font-size: 20px;
@@ -42,35 +42,15 @@ li {
   margin: 30px auto;
   max-width: 600px;
 }
-
-.Forecast .weather-forecast-day {
-  font-size: 13px;
-  font-weight: bold;
-}
-.Forecast .weather-forecast-temp {
-  font-size: 14px;
-}
-.min-temp {
-  opacity: 0.8;
-}
-
 .col-7 {
   display: block;
   text-align: center;
 }
 .col-5 {
-  margin: 10px auto;
+  margin: 50px auto;
   text-align: left;
 }
-.degrees {
-  font-size: 20px;
-  margin-left: 3px;
-}
-
 .maintemp .active {
   color: black;
   cursor: default;
-}
-.maintemp .active:hover {
-  text-decoration: none;
 }

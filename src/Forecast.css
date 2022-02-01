@@ -1,0 +1,21 @@
+.Forecast {
+  text-align: center;
+}
+.card {
+  background: radial-gradient(
+    827px at 47.3% 48%,
+    rgb(255, 255, 255) 0%,
+    rgb(138, 192, 216) 90%
+  );
+}
+.weather-forecast-day {
+  font-size: 13px;
+  font-weight: bold;
+}
+.weather-forecast-temp {
+  font-size: 14px;
+}
+.min-temp {
+  opacity: 0.6;
+  margin-left: 4px;
+}
